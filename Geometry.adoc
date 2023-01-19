@@ -1,0 +1,38 @@
+= Geometry
+
+== Point class
+
+contains x, y coordinates
+
+methods
+
+distance to another point
+
+== Line class
+
+contains coefficients a, b, c
+
+a * x + b * y = c
+
+methods
+
+contains point
+
+Point of intersection with another line
+
+distance Point from Line
+
+...
+
+== Circle class
+
+contains center (x0, y0) and Radius r
+
+methods
+
+point inside
+
+intersection with line
+
+intersection with circle
+
