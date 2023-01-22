@@ -9,7 +9,7 @@ public class Circle {
     }
 
     public boolean pointInside(Point p) {
-        double hypot = Math.abs(Math.sqrt((p.getX() * p.getX()) + (p.getY() * p.getY())));
+        double hypot = Math.sqrt((p.getX() * p.getX()) + (p.getY() * p.getY()));
         return hypot <= radius;
     }
 }

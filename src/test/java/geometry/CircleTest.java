@@ -19,7 +19,7 @@ public class CircleTest {
     @DataProvider(name = "testPointInsideParameters")
     public Object[][] testPointInsideParameters() {
         return new Object[][]{
-                {1, -1, 3},
+                {-1, -1, 3},
                 {1, 1, 2},
                 {2, 4, 33}
         };
@@ -35,7 +35,7 @@ public class CircleTest {
     @DataProvider(name = "testPointNotInsideParameters")
     public Object[][] testPointNotInsideParameters() {
         return new Object[][]{
-                {7, 7, 3},
+                {-7, -7, 3},
                 {6, 6, 2},
                 {5, 5, 1}
         };
